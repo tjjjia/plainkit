@@ -1,9 +1,0 @@
-Title: Event Future
-
-----
-
-Text: This is an event in the future.
-
-----
-
-Uuid: Q9TwTEbilObgINXq

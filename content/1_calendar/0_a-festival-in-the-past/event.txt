@@ -1,0 +1,85 @@
+Title: A Festival in the Past
+
+----
+
+Headline: A Festival in the Past
+
+----
+
+Subhead: 
+
+----
+
+Organisation: homecinema, chute
+
+----
+
+Location: Eye FIlm Museum
+
+----
+
+Geolocation: https://maps.app.goo.gl/mdMx3MziYoVKyELk9
+
+----
+
+Ticketvendor: More info
+
+----
+
+Ticketvendorurl: https://www.eyefilm.nl/en/programme/paravel-castaing-taylor/1165744
+
+----
+
+Datefrom: 2023-11-01
+
+----
+
+Dateto: 2023-12-03
+
+----
+
+Isallday: false
+
+----
+
+Timefrom: 
+
+----
+
+Timeto: 
+
+----
+
+Timezone: 
+
+----
+
+Description: Eye Filmmuseum presents Cosmic Realism, the first retrospective featuring the works of Véréna Paravel and Lucien Castaing-Taylor. Trained as anthropologists, they merge anthropology, documentaries, and visual arts in their craft. The exhibition takes the viewer past seven immersive installations in which the development of the makers can be followed.
+
+----
+
+Cover: 
+
+----
+
+Gallery: 
+
+----
+
+Fromdate: 2023-11-01
+
+----
+
+Todate: 2023-11-06
+
+----
+
+Fromtime: 
+
+----
+
+Totime: 
+
+----
+
+Uuid: 2gH6ShnOvYC67TgY

@@ -1,0 +1,18 @@
+type: pages
+label: Calendar
+parent: site.find("calendar")
+sortBy: from desc
+layout: table
+columns:
+  datefrom: true
+    label: Date from
+  dateto: true
+    label: Date to
+  isallday: true
+    label: Is all day?
+  organisation: true
+    label: Organisation
+  venue: true
+    label: Venue
+template: event
+empty: No events yet

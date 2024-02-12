@@ -1,0 +1,13 @@
+Caption: A blue square image
+
+----
+
+Alt: Blue Image
+
+----
+
+Uuid: XRpvJDQO9pIAVZWJ
+
+----
+
+Template: image

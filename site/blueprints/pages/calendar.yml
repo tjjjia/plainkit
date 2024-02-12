@@ -1,20 +1,35 @@
-title: Calendar Template
+title: Calendar
+icon: 🗓️
 
-columns:
-  main:
-    width: 1/2
-    sections:
-      fields:
-        type: fields
-        fields:
-          text:
-            type: textarea
-            size: huge
-  sidebar:
-    width: 1/2
-    sections:
-      pages:
-        type: pages
-        template: default
-      files:
-        type: files
+options:
+  changeSlug: false
+  changeStatus: false
+  delete: false
+
+sections:
+  listed:
+    extends: sections/events
+    label: Published events
+    status: listed
+
+  # upcoming:
+  #   extends: sections/events
+  #   label: Upcoming events
+  #   status: listed
+  #   query: page.children.filterBy("datefrom", '>','2024-02-12')
+
+  # past:
+  #   extends: sections/events
+  #   label: Past events
+  #   status: listed
+  #   query: page.children.filterBy("datefrom", '<','2024-02-12')
+
+  drafts:
+    extends: sections/events
+    label: Unpublished events
+    status: draft
+
+  unlisted:
+    extends: sections/events
+    label: Unlisted events
+    status: unlisted
