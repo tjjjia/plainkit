@@ -3,7 +3,7 @@ icon: 📅
 num: "{{ page.datefrom.toDate('Ymd') }}"
 
 columns:
-  main:
+  meta:
     width: 2/3
     fields:
       headline:
@@ -48,31 +48,31 @@ columns:
       dateTimeHeadline:
         label: Date and time
         type: headline
-      datefrom:
-        label: Start
+      dateFrom:
+        label: Start date
         type: date
         width: 1/2
         default: today
-      dateto:
-        label: End
+      dateTo:
+        label: End date
         type: date
         width: 1/2
         default: today + 1day
-      isallday:
+      isAllDay:
         type: toggle
         label: All day?
         text:
           - "Yes"
           - "No"
         width: 1/4
-      timefrom:
+      timeFrom:
         label: Start time
         type: time
         display: HH:mm
         width: 1/4
         when:
-          isallday: true
-      timeto:
+          isAllDay: true
+      timeTo:
         label: End time
         type: time
         display: HH:mm
@@ -91,7 +91,7 @@ columns:
         when:
           isallday: true
 
-  sidebar:
+  content:
     width: 1/3
     fields:
       description:
@@ -102,13 +102,13 @@ columns:
         type: files
         layout: cards
         info: "{{ file.dimnensions }}"
-        query: page.images
+        query: site.index.children.images
         template: cover
         multiple: false
       gallery:
         label: Image gallery
         type: files
         template: image
-        query: site.children.images
+        query: site.index.children.images
         uploads:
           template: image

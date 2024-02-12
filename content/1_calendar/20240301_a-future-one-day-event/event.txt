@@ -10,7 +10,7 @@ Subhead: This will be happening soon
 
 ----
 
-Organisation: wysiwyg
+Organisation: wysiwyg, chute
 
 ----
 
@@ -38,15 +38,15 @@ Dateto:
 
 ----
 
-Isallday: false
+Isallday: true
 
 ----
 
-Timefrom: 
+Timefrom: 19:00:00
 
 ----
 
-Timeto: 
+Timeto: 21:00:00
 
 ----
 

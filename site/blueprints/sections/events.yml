@@ -3,13 +3,16 @@ label: Calendar
 parent: site.find("calendar")
 sortBy: from desc
 layout: table
+image:
+   query: page.cover.toFile
 columns:
   datefrom: true
     label: Date from
   dateto: true
     label: Date to
   isallday: true
-    label: Is all day?
+    label: All day?
+    width: 1/12
   organisation: true
     label: Organisation
   venue: true

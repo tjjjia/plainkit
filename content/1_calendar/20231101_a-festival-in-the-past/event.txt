@@ -6,11 +6,11 @@ Headline: A Festival in the Past
 
 ----
 
-Subhead: 
+Subhead: it has happened
 
 ----
 
-Organisation: homecinema, chute
+Organisation: homecinema
 
 ----
 
@@ -58,11 +58,11 @@ Description: Eye Filmmuseum presents Cosmic Realism, the first retrospective fea
 
 ----
 
-Cover: 
+Cover: - file://tFxxbspk4oErGko2
 
 ----
 
-Gallery: 
+Gallery: - file://McKnjnOOkaMHqCBY
 
 ----
 
