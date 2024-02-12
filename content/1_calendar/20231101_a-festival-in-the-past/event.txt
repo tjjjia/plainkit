@@ -66,20 +66,4 @@ Gallery: - file://McKnjnOOkaMHqCBY
 
 ----
 
-Fromdate: 2023-11-01
-
-----
-
-Todate: 2023-11-06
-
-----
-
-Fromtime: 
-
-----
-
-Totime: 
-
-----
-
 Uuid: 2gH6ShnOvYC67TgY

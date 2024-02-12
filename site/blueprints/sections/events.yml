@@ -15,7 +15,7 @@ columns:
     width: 1/12
   organisation: true
     label: Organisation
-  venue: true
+  location: true
     label: Venue
 template: event
 empty: No events yet

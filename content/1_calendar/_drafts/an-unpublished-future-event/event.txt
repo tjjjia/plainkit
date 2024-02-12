@@ -66,12 +66,4 @@ Gallery:
 
 ----
 
-Fromtime: 
-
-----
-
-Totime: 
-
-----
-
 Uuid: BfO6zrEZqYBC2B7O
