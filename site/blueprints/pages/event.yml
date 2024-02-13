@@ -20,13 +20,13 @@ columns:
         type: multiselect
         min: 1
         options:
-          # type: query
-          # query: page('calendar').children.listed
-          # text: "{{ page.title }}"
-          # value: "{{ page.slug }}"
-          wysiwyg: wysiwyg
-          homecinema: Home Cinema
-          chute: Chute Film Coop
+          type: query
+          query: page('network').children.listed
+          text: "{{ page.title }}"
+          value: "{{ page.slug }}"
+          # wysiwyg: wysiwyg
+          # homecinema: Home Cinema
+          # chute: Chute Film Coop
 
       locationHeadline:
         label: Location and tickets
