@@ -1,0 +1,33 @@
+Title: Filmhuis Den Haag
+
+----
+
+Headline: Filmhuis Denhaag is een culturele ontmoetingsplek waar je kunt genieten van de nieuwste films, specials en evenementen.
+
+----
+
+Description: Het is een culturele ontmoetingsplek die mensen en culturen samenbrengt met films die verhalen vertellen en je uitnodigen om je in te leven in de ander. Het Filmhuis doet dat door films te laten zien, van internationale klassiekers tot hedendaagse kwaliteitscinema, veelal met randprogramma. En door educatieve programma’s te maken, talent te ontwikkelen en jonge Haagse filmmakers een podium te bieden. Daarnaast heeft het Filmhuis een bijzondere collectie die iets vertelt over de geschiedenis van de cinema.
+
+----
+
+Location: The Hague
+
+----
+
+Homepageurl: https://filmhuisdenhaag.nl/
+
+----
+
+Socialurl: https://www.instagram.com/filmhuisdenhaag/
+
+----
+
+Address: 
+
+----
+
+Cover: 
+
+----
+
+Uuid: Rn54muv3atbZPMcO
