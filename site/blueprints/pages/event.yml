@@ -105,7 +105,7 @@ columns:
         label: Cover for event
         type: files
         layout: cards
-        info: "{{ file.dimnensions }}"
+        info: "{{ file.dimensions }}"
         query: site.index.children.images
         template: cover
         multiple: false
