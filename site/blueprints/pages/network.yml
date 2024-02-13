@@ -1,0 +1,23 @@
+title: Network
+icon: 🌐
+
+options:
+  changeSlug: false
+  changeStatus: false
+  delete: false
+
+sections:
+  listed:
+    extends: sections/organisations
+    label: Published organisations
+    status: listed
+  
+  drafts:
+    extends: sections/organisations
+    label: Unpublished organisations
+    status: draft
+
+  unlisted:
+    extends: sections/organisations
+    label: Unlisted organisations
+    status: unlisted

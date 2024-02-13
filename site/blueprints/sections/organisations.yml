@@ -1,0 +1,15 @@
+type: pages
+label: Network
+parent: site.find("network")
+sortBy: from desc
+
+layout: table
+image:
+   query: page.cover.toFile
+columns:
+  location: true
+    label: Location
+  homepageUrl: true
+    label: Homepage
+template: organisation
+empty: No organisations yet
