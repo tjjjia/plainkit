@@ -10,7 +10,7 @@ Subhead: Unseen but will arrive
 
 ----
 
-Organisation: homecinema, wysiwyg, chute
+Organisation: wysiwyg-cinema, filmhuis-den-haag, chute-film-coop
 
 ----
 

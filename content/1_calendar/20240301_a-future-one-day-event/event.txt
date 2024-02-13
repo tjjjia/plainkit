@@ -10,7 +10,7 @@ Subhead: This will be happening soon
 
 ----
 
-Organisation: wysiwyg, chute
+Organisation: wysiwyg-cinema, filmhuis-den-haag, chute-film-coop
 
 ----
 
