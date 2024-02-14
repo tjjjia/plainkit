@@ -11,7 +11,7 @@ sections:
     extends: sections/organisations
     label: Published organisations
     status: listed
-  
+
   drafts:
     extends: sections/organisations
     label: Unpublished organisations
