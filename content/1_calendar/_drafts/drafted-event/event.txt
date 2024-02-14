@@ -1,8 +1,8 @@
-Title: An Unpublished Future Event
+Title: Drafted Event
 
 ----
 
-Headline: An Unpublished Future Event
+Headline: 
 
 ----
 
@@ -10,7 +10,7 @@ Subhead:
 
 ----
 
-Organisation: wysiwyg
+Organisation: wysiwyg-cinema
 
 ----
 
@@ -30,11 +30,11 @@ Ticketvendorurl:
 
 ----
 
-Datefrom: 2024-04-01
+Datefrom: 2024-02-14
 
 ----
 
-Dateto: 
+Dateto: 2024-02-15
 
 ----
 
@@ -66,4 +66,4 @@ Gallery:
 
 ----
 
-Uuid: BfO6zrEZqYBC2B7O
+Uuid: cGiExSrTSfXPD61f
