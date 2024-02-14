@@ -103,6 +103,10 @@ main {
   height: calc(100vh - 2em);
 }
 
+#unlisted {
+  margin-top: 1em;
+}
+
 #index {
   background-color: var(--color-light-2);
 }
