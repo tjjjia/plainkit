@@ -22,7 +22,21 @@
 </head>
 <body>
     <header>
-        <div><h1><?= $page->title() ?></h1></div>
-        <nav><button>Menu</button></nav>
+        <?php 
+            if($page->is('calendar')): ?>
+        <nav class="current">
+            <a aria-current="page" href="<?= $site->page('calendar')->url() ?>"><?= $site->page('calendar')->title() ?></a>
+        </nav>
+        <nav class="other">
+            <a href="<?= $site->page('network')->url() ?>"><?= $site->page('network')->title() ?></a>
+        </nav>
+        <?php else:?>
+        <nav class="current">
+            <a aria-current="page" href="<?= $site->page('network')->url() ?>"><?= $site->page('network')->title() ?></a>
+        </nav>
+        <nav class="other">
+            <a href="<?= $site->page('calendar')->url() ?>"><?= $site->page('calendar')->title() ?></a>
+        </nav>
+        <?php endif ?>
     </header>
 <main>
