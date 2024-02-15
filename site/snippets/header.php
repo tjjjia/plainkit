@@ -24,18 +24,25 @@
     <header>
         <?php 
             if($page->is('calendar')): ?>
-        <nav class="current">
-            <a aria-current="page" href="<?= $site->page('calendar')->url() ?>"><?= $site->page('calendar')->title() ?></a>
+        <nav aria-current="page">
+                <?= $site->page('calendar')->title() ?>
         </nav>
-        <nav class="other">
+        <nav>
             <a href="<?= $site->page('network')->url() ?>"><?= $site->page('network')->title() ?></a>
         </nav>
-        <?php else:?>
-        <nav class="current">
-            <a aria-current="page" href="<?= $site->page('network')->url() ?>"><?= $site->page('network')->title() ?></a>
+        <?php elseif($page->is('network')):?>
+        <nav aria-current="page">
+            <?= $site->page('network')->title() ?>
         </nav>
-        <nav class="other">
+        <nav>
             <a href="<?= $site->page('calendar')->url() ?>"><?= $site->page('calendar')->title() ?></a>
+        </nav>
+        <?php else: ?>
+        <nav>
+            <a href="<?= $site->page('calendar')->url() ?>"><?= $site->page('calendar')->title() ?></a>
+        </nav>
+        <nav>
+            <a href="<?= $site->page('network')->url() ?>"><?= $site->page('network')->title() ?></a>
         </nav>
         <?php endif ?>
     </header>
