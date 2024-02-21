@@ -62,6 +62,14 @@ const fetchProject = async (json) => {
   }
 };
 
+function fetchFirstProject() {
+  const firstLink = links[0].firstElementChild;
+  const firstURL = firstLink.href;
+  const firstJSON = `${firstURL}.json`;
+
+  fetchProject(firstJSON);
+}
+
 // Export at least one function?
 export function f() {
   return;
@@ -76,3 +84,8 @@ window.addEventListener("unhandledrejection", function (event) {
   alert(event.promise); // [object Promise] - the promise that generated the error
   alert(event.reason); // Error: Whoops! - the unhandled error object
 });
+
+function init() {
+  fetchFirstProject();
+}
+init();
