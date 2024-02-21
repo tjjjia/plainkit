@@ -52,7 +52,6 @@ const renderResult = function (data) {
 };
 
 const fetchProject = async (json) => {
-  // let url = url; // see info
   try {
     const response = await fetch(json);
     const data = await response.json();
@@ -63,29 +62,17 @@ const fetchProject = async (json) => {
   }
 };
 
-// loader
-//
-const loader = function (message) {
-  result.innerText = message;
-};
-
-// 3. async await
-//
-export async function f() {
-  let promise = new Promise((resolve, reject) => {
-    setTimeout(() => resolve("done!"), 1000);
-  });
-
-  let result = await promise; // wait until the promise resolves (*)
-  console.log(result); // "done!"
+// Export at least one function?
+export function f() {
+  return;
 }
 
 f();
 
 // 4. Function for Uncaught errors
 //
-// window.addEventListener("unhandledrejection", function (event) {
-//   // the event object has two special properties:
-//   alert(event.promise); // [object Promise] - the promise that generated the error
-//   alert(event.reason); // Error: Whoops! - the unhandled error object
-// });
+window.addEventListener("unhandledrejection", function (event) {
+  // the event object has two special properties:
+  alert(event.promise); // [object Promise] - the promise that generated the error
+  alert(event.reason); // Error: Whoops! - the unhandled error object
+});
