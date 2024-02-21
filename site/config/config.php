@@ -1,11 +1,14 @@
 <?php
 
 return [
-    'api' => [
-        'basicAuth' => true,
-        'allowInsecure' => true
+    'auth' => [
+        'debug' => true
     ],
-    'debug' => true
+    'api' => [
+        'allowInsecure' => true,
+        'basicAuth' => true
+    ],
+'debug' => true
     
 ];
 
