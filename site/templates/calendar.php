@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div id="index" class="main-container">
+<div id="index" class="main-container events">
     <ul id="listed">
     <?php foreach($page->children()->listed() as $lipage): ?>
         <li>
@@ -19,10 +19,6 @@
     </ul>
     </ul>
 </div>
-<div id="render" class="main-container">
-    <div id="display">
-        Result
-    </div>
-</div>
+<div id="render" class="main-container"></div>
 
 <?php snippet('footer') ?>

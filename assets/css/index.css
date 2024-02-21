@@ -132,6 +132,11 @@ main {
   padding: var(--padding);
 }
 
+/* event */
+.event * {
+  display: block;
+}
+
 footer {
   position: fixed;
   bottom: 0;
