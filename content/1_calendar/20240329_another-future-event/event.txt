@@ -1,0 +1,73 @@
+Title: Another Future Event
+
+----
+
+Headline: Future One Day Event
+
+----
+
+Subhead: This will be happening soon
+
+----
+
+Organisation: filmhuis-den-haag, chute-film-coop
+
+----
+
+Location: Filmhuis The Hague
+
+----
+
+Geolocation: https://maps.app.goo.gl/H5GBaUFiqLMHpD1X8
+
+----
+
+Ticketvendor: Tickets
+
+----
+
+Ticketvendorurl: https://filmhuisdenhaag.nl/glued-and-screwed
+
+----
+
+Datefrom: 2024-03-29
+
+----
+
+Dateto: 
+
+----
+
+Isallday: true
+
+----
+
+Timefrom: 19:00:00
+
+----
+
+Timeto: 21:00:00
+
+----
+
+Timezone: 1
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla tortor eget turpis posuere, vitae posuere nunc euismod. Integer id commodo arcu. Aliquam a elit a diam semper tristique ut eu lectus. Fusce vulputate vitae lectus nec sollicitudin. Nulla aliquam arcu a mi scelerisque, sit amet rutrum lacus convallis. Phasellus.
+
+----
+
+Cover: - file://McKnjnOOkaMHqCBY
+
+----
+
+Gallery:
+
+- file://XRpvJDQO9pIAVZWJ
+- file://tFxxbspk4oErGko2
+- file://McKnjnOOkaMHqCBY
+
+----
+
+Uuid: 049ojomR5qkWRxCR

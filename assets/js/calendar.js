@@ -74,7 +74,6 @@ function fetchFirstProject() {
 export function f() {
   return;
 }
-
 f();
 
 // 4. Function for Uncaught errors

@@ -1,5 +1,5 @@
 import { loadMember, loadNetwork } from "./network.js";
-import { f } from "./calendar.js";
+// import { f } from "./calendar.js";
 
 // run page-specific functions
 const currentPage = window.location.pathname;

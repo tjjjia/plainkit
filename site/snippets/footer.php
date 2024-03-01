@@ -7,6 +7,7 @@
     const csrf = "<?= csrf() ?>";
 </script>
 <?= js(
+    '@auto',
     'assets/js/index.js', ['type' => 'module']
     ) ?>
 </body>

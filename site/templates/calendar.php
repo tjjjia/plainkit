@@ -1,24 +1,22 @@
 <?php snippet('header') ?>
 
-<div id="index" class="main-container events">
-    <ul id="listed">
-    <?php foreach($page->children()->listed() as $lipage): ?>
+<div id="index" class="main-container">
+    <ul class="events" data-page="<?= $pagination->nextPage() ?>" id="listed">
+    <?php foreach($events as $event): ?>
         <li>
-            <a href="<?= $lipage->url() ?>">
-            <?= html($lipage->title()) ?></a>
+            <?= snippet('listitem', ['event' => $event]); ?>
         </li>
     <?php endforeach ?>
 
-    <ul id="unlisted">
-    <?php foreach($page->children()->unlisted() as $ulpage): ?>
-        <li>
-            <a href="<?= $ulpage->url() ?>">
-            <?= html($ulpage->title()) ?></a>
-        </li>
-    <?php endforeach ?>
     </ul>
-    </ul>
+    <button class="load-more" accesskey="m">Load more</button>
 </div>
-<div id="render" class="main-container"></div>
+<div id="render" class="main-container">
+    <?php 
+    /*
+    <?php snippet('event', ['event' => $event]) ?>
+    */
+    ?>
+</div>
 
 <?php snippet('footer') ?>
