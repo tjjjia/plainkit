@@ -16,13 +16,13 @@ sections:
   #   extends: sections/events
   #   label: Upcoming events
   #   status: listed
-  #   query: page.children.filterBy("datefrom", '>','2024-02-12')
+  #   query: page.children.listed.filterBy("datefrom", '>=', page.currentdate)
 
   # past:
   #   extends: sections/events
   #   label: Past events
   #   status: listed
-  #   query: page.children.filterBy("datefrom", '<','2024-02-12')
+  #   query: page.children.listed.filterBy("datefrom", '<', page.currentdate)
 
   drafts:
     extends: sections/events
