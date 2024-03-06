@@ -1,0 +1,69 @@
+Title: What is this?
+
+----
+
+Headline: Future One Day Event
+
+----
+
+Subhead: This will be happening soon
+
+----
+
+Organisation: wysiwyg-cinema, chute-film-coop
+
+----
+
+Location: De Bibliotheek
+
+----
+
+Geolocation: https://maps.app.goo.gl/H5GBaUFiqLMHpD1X8
+
+----
+
+Ticketvendor: Tickets
+
+----
+
+Ticketvendorurl: https://filmhuisdenhaag.nl/glued-and-screwed
+
+----
+
+Datefrom: 2024-04-26
+
+----
+
+Dateto: 
+
+----
+
+Isallday: true
+
+----
+
+Timefrom: 19:00:00
+
+----
+
+Timeto: 21:00:00
+
+----
+
+Timezone: 1
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla tortor eget turpis posuere, vitae posuere nunc euismod. Integer id commodo arcu. Aliquam a elit a diam semper tristique ut eu lectus. Fusce vulputate vitae lectus nec sollicitudin. Nulla aliquam arcu a mi scelerisque, sit amet rutrum lacus convallis. Phasellus.
+
+----
+
+Cover: - file://XRpvJDQO9pIAVZWJ
+
+----
+
+Gallery: - file://XRpvJDQO9pIAVZWJ
+
+----
+
+Uuid: ebi3aZIURFaS09na

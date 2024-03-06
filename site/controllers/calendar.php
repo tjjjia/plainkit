@@ -1,7 +1,7 @@
 <?php
 
 return function ($page) {
-  $limit    = 1;
+  $limit    = 2;
   $events = $page->children()->listed()->paginate($limit);
 
   return [

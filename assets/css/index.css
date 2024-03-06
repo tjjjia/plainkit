@@ -137,6 +137,10 @@ main {
   display: block;
 }
 
+.events li {
+  border-bottom: 1px black solid;
+}
+
 footer {
   position: fixed;
   bottom: 0;
