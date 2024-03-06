@@ -3,9 +3,7 @@
 <div id="index" class="main-container">
     <ul class="events" data-page="<?= $pagination->nextPage() ?>" id="listed">
     <?php foreach($events as $event): ?>
-        <li>
-            <?= snippet('listitem', ['event' => $event]); ?>
-        </li>
+        <?= snippet('listitem', ['event' => $event]); ?>
     <?php endforeach ?>
 
     </ul>
