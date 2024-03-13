@@ -4,7 +4,7 @@
     <ul id="listed">
     <?php foreach($page->children()->listed() as $lipage): ?>
         <li>
-            <a href="<?= $lipage->url() ?>">
+            <a class="modal-links" href="<?= $lipage->url() ?>">
             <?= html($lipage->title()) ?></a>
         </li>
     <?php endforeach ?>
