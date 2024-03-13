@@ -1,0 +1,69 @@
+Title: Glued & Scewed 16
+
+----
+
+Headline: Glued & Screwed 16
+
+----
+
+Subhead: 
+
+----
+
+Organisation: filmhuis-den-haag, wysiwyg-cinema
+
+----
+
+Location: 
+
+----
+
+Geolocation: 
+
+----
+
+Ticketvendor: 
+
+----
+
+Ticketvendorurl: 
+
+----
+
+Datefrom: 2024-03-06
+
+----
+
+Dateto: 2024-03-07
+
+----
+
+Isallday: false
+
+----
+
+Timefrom: 
+
+----
+
+Timeto: 
+
+----
+
+Timezone: 
+
+----
+
+Description: hahashhas
+
+----
+
+Cover: 
+
+----
+
+Gallery: 
+
+----
+
+Uuid: 37QPGGNy5mISRMO1

@@ -128,11 +128,34 @@ main {
   background-color: var(--color-light-3);
 }
 
+/* SPINNER */
+.spinner {
+  /* height: calc(100vh - 4em); */
+  display: flex;
+  justify-content: center;
+}
+
+.spinner svg {
+  fill: #000000;
+  width: 100%;
+  height: calc(100vh - 4em);
+  animation: 1s linear infinite rotate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .main-container {
   padding: var(--padding);
 }
 
-/* event */
+/* EVENT */
 .event * {
   display: block;
 }
@@ -148,4 +171,10 @@ footer {
   justify-content: center;
   width: 100%;
   gap: var(--padding);
+}
+
+/* GENERAL */
+
+.hidden {
+  display: none;
 }
