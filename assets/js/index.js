@@ -1,3 +1,6 @@
+// imports
+// import renderSpinner from "spinner.js";
+
 // variables
 const element = document.querySelector(".events");
 const render_div = document.querySelector("#render");
@@ -24,6 +27,8 @@ const linkHandler = function (event) {
 // fetch json
 const fetchProject = async (url) => {
   try {
+    renderSpinner(render);
+
     const json = `${url}.json`;
     const response = await fetch(json);
     const { html } = await response.json();
@@ -54,6 +59,19 @@ const clearProject = function () {
 
 project_div.addEventListener("click", linkHandler);
 
+// Render spinner
+//
+const renderSpinner = function (parentEl) {
+  const markup = `
+    <div class="spinner">
+      <svg>
+          <use href="assets/img/icons.svg#icon-loader"></use>
+      </svg>
+    </div>
+    `;
+  parentEl.innerHTML = "";
+  parentEl.insertAdjacentHTML("afterbegin", markup);
+};
 
 // Uncaught errors
 //
@@ -62,4 +80,3 @@ window.addEventListener("unhandledrejection", function (event) {
   alert(event.promise); // [object Promise] - the promise that generated the error
   alert(event.reason); // Error: Whoops! - the unhandled error object
 });
-
