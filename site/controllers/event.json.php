@@ -1,11 +1,10 @@
 <?php
 
 return function ($page) {
-
-  $events   = $page;
-
+  // $events   = $page;
   return [
-      'events' => $events,
+      // 'events' => $events,
+      'event'    => $page,
       'html'     => '',
       'json'     => [],
     ];

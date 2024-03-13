@@ -66,4 +66,12 @@ Gallery: - file://McKnjnOOkaMHqCBY
 
 ----
 
+Seotitle: A Festival In The past
+
+----
+
+Seodescription: Cosmic Realism, the first retrospective featuring the works of Véréna Paravel and Lucien Castaing-Taylor. Trained as anthropologists, they merge anthropology, documentaries, and visual arts in their craft.
+
+----
+
 Uuid: eRLaRByZZSeEUjn9

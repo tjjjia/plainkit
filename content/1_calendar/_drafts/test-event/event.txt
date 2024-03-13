@@ -1,8 +1,8 @@
-Title: Drafted Event
+Title: Test event
 
 ----
 
-Headline: 
+Headline: yoyo
 
 ----
 
@@ -10,7 +10,7 @@ Subhead:
 
 ----
 
-Organisation: wysiwyg-cinema
+Organisation: 
 
 ----
 
@@ -30,11 +30,11 @@ Ticketvendorurl:
 
 ----
 
-Datefrom: 2024-02-14
+Datefrom: 2024-03-13
 
 ----
 
-Dateto: 2024-02-15
+Dateto: 2024-03-14
 
 ----
 
@@ -66,4 +66,12 @@ Gallery:
 
 ----
 
-Uuid: cGiExSrTSfXPD61f
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Uuid: CZwiuPl6pTwQoQqI

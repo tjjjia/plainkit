@@ -10,8 +10,5 @@
     'assets/js/index.js',
     '@auto'    
 ]) ?>
-
-'@auto',
-
 </body>
 </html>

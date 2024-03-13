@@ -2,117 +2,135 @@ title: Event
 icon: 📅
 num: "{{ page.datefrom.toDate('Ymd') }}"
 
-columns:
-  meta:
-    width: 2/3
-    fields:
-      headline:
-        label: Title event
-        type: text
-        width: 1/2
-      subhead:
-        label: Subheader
-        type: text
-        width: 1/2
-
-      organisation:
-        label: Organisation
-        type: multiselect
-        min: 1
-        options:
-          type: query
-          query: page('network').children.listed
-          text: "{{ page.title }}"
-          value: "{{ page.slug }}"
-          # wysiwyg: wysiwyg
-          # homecinema: Home Cinema
-          # chute: Chute Film Coop
-
-      locationHeadline:
-        label: Location and tickets
-        type: headline
-      location:
-        label: Location
-        type: text
-        width: 1/2
-      geolocation:
-        label: Geolocation
-        type: url
-        width: 1/2
-      ticketVendor:
-        label: Text to external link
-        placeholder: "Tickets here"
-        type: text
-        width: 1/2
-      ticketVendorURL:
-        label: Link
-        type: url
-        width: 1/2
-
-      dateTimeHeadline:
-        label: Date and time
-        type: headline
-      dateFrom:
-        label: Start date
-        type: date
-        width: 1/2
-        default: today
-      dateTo:
-        label: End date
-        type: date
-        width: 1/2
-        default: today + 1day
-      isAllDay:
-        type: toggle
-        label: All day?
-        text:
-          - "Yes"
-          - "No"
-        width: 1/4
-      timeFrom:
-        label: Start time
-        type: time
-        display: HH:mm
-        width: 1/4
-        when:
-          isAllDay: true
-      timeTo:
-        label: End time
-        type: time
-        display: HH:mm
-        width: 1/4
-        when:
-          isallday: true
-      timezone:
-        label: Timezone (UTC)
-        type: number
-        width: 1/4
-        min: -12
-        max: 12
-        placeholder: 1
-        step: 1
-        help: "UTC range: -12 to 12. AMS: UTC +1."
-        when:
-          isallday: true
-
+tabs:
   content:
-    width: 1/3
+    label: Content
+    icon: text
+
+    columns:
+      meta:
+        width: 2/3
+        fields:
+          headline:
+            label: Title event
+            type: text
+            width: 1/2
+          subhead:
+            label: Subheader
+            type: text
+            width: 1/2
+
+          organisation:
+            label: Organisation
+            type: multiselect
+            min: 1
+            options:
+              type: query
+              query: page('network').children.listed
+              text: "{{ page.title }}"
+              value: "{{ page.slug }}"
+              # wysiwyg: wysiwyg
+              # homecinema: Home Cinema
+              # chute: Chute Film Coop
+
+          locationHeadline:
+            label: Location and tickets
+            type: headline
+          location:
+            label: Location
+            type: text
+            width: 1/2
+          geolocation:
+            label: Geolocation
+            type: url
+            width: 1/2
+          ticketVendor:
+            label: Text to external link
+            placeholder: "Tickets here"
+            type: text
+            width: 1/2
+          ticketVendorURL:
+            label: Link
+            type: url
+            width: 1/2
+
+          dateTimeHeadline:
+            label: Date and time
+            type: headline
+          dateFrom:
+            label: Start date
+            type: date
+            width: 1/2
+            default: today
+          dateTo:
+            label: End date
+            type: date
+            width: 1/2
+            default: today + 1day
+          isAllDay:
+            type: toggle
+            label: All day?
+            text:
+              - "Yes"
+              - "No"
+            width: 1/4
+          timeFrom:
+            label: Start time
+            type: time
+            display: HH:mm
+            width: 1/4
+            when:
+              isAllDay: true
+          timeTo:
+            label: End time
+            type: time
+            display: HH:mm
+            width: 1/4
+            when:
+              isallday: true
+          timezone:
+            label: Timezone (UTC)
+            type: number
+            width: 1/4
+            min: -12
+            max: 12
+            placeholder: 1
+            step: 1
+            help: "UTC range: -12 to 12. AMS: UTC +1."
+            when:
+              isallday: true
+
+      content:
+        width: 1/3
+        fields:
+          description:
+            label: Description
+            type: textarea
+          cover:
+            label: Cover for event
+            type: files
+            layout: cards
+            info: "{{ file.dimensions }}"
+            query: site.index.children.images
+            template: cover
+            multiple: false
+          gallery:
+            label: Image gallery
+            type: files
+            template: image
+            query: site.index.children.images
+            uploads:
+              template: image
+
+  seo:
+    label: SEO
+    icon: search
     fields:
-      description:
-        label: Description
-        type: textarea
-      cover:
-        label: Cover for event
-        type: files
-        layout: cards
-        info: "{{ file.dimensions }}"
-        query: site.index.children.images
-        template: cover
-        multiple: false
-      gallery:
-        label: Image gallery
-        type: files
-        template: image
-        query: site.index.children.images
-        uploads:
-          template: image
+      seoTitle:
+        label: SEO Title
+        type: text
+        help: "Aim for under 60 characters"
+      seoDescription:
+        label: SEO Description
+        type: text
+        help: "Aim for under 200 characters"

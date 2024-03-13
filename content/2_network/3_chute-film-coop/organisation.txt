@@ -2,7 +2,7 @@ Title: Chute Film Coop
 
 ----
 
-Headline: Experimental Cinema
+Headline: Chute Film Coop
 
 ----
 
@@ -27,6 +27,14 @@ Address:
 ----
 
 Cover: - file://McKnjnOOkaMHqCBY
+
+----
+
+Seotitle: Chute Film Coop
+
+----
+
+Seodescription: Chute is an experimental film cooperative, founded in 2021 and is currently based in Istanbul and The Hague.
 
 ----
 
