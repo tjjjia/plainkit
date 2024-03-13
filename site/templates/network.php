@@ -3,9 +3,10 @@
 <div id="index" class="main-container">
     <ul id="listed">
     <?php foreach($page->children()->listed() as $lipage): ?>
-        <li>
-            <a class="modal-links" href="<?= $lipage->url() ?>">
-            <?= html($lipage->title()) ?></a>
+        <li class="modal-links" data-link="<?= $lipage->url()?>">
+            <a href="<?= $lipage->url() ?>">
+                <?= html($lipage->title()) ?>
+            </a>
         </li>
     <?php endforeach ?>
 

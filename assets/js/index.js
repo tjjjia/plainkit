@@ -1,32 +1,65 @@
-import { loadMember, loadNetwork } from "./network.js";
-// import { f } from "./calendar.js";
+// variables
+const element = document.querySelector(".events");
+const render_div = document.querySelector("#render");
+const project_div = document.querySelector("#index");
 
-// run page-specific functions
-const currentPage = window.location.pathname;
-console.log("📍 Currently browsing", currentPage);
+// Create a DocumentFragment (explained below)
+const createItem = document.createDocumentFragment();
 
-switch (currentPage.toLowerCase()) {
-  case "/":
-    // homepage
-    break;
-  case "/calendar":
-    // calendar
-    break;
-  case "/network":
-    // network
-    const links = document.querySelectorAll("#index li a");
+// link handler
+const linkHandler = function (event) {
+  event.preventDefault();
+  const target = event.target;
 
-    links.forEach((link) => {
-      link.addEventListener("click", function (event) {
-        event.preventDefault();
+  // check if the clicked element is an <a> tag
+  const type = target.tagName.toLowerCase();
+  if (type != "a") {
+    return;
+  } else {
+    const url = event.target.href;
+    fetchProject(url);
+  }
+};
 
-        const href = new URL(link.href);
-        loadMember(href.pathname);
-      });
-    });
+// fetch json
+const fetchProject = async (url) => {
+  try {
+    const json = `${url}.json`;
+    const response = await fetch(json);
+    const { html } = await response.json();
 
-    loadNetwork();
-    break;
-  default:
-    break;
-}
+    renderProject(html, true);
+  } catch (error) {
+    console.log("Fetch error: ", error);
+  }
+};
+
+// html to DOM
+const renderProject = function (html, clear) {
+  if (clear) {
+    clearProject();
+  }
+
+  const project_element = document.createElement("div");
+  project_element.classList.add("project-container");
+  project_element.innerHTML = html;
+
+  createItem.appendChild(project_element);
+  render_div.appendChild(project_element);
+};
+
+const clearProject = function () {
+  render_div.innerHTML = "";
+};
+
+project_div.addEventListener("click", linkHandler);
+
+
+// Uncaught errors
+//
+window.addEventListener("unhandledrejection", function (event) {
+  // the event object has two special properties:
+  alert(event.promise); // [object Promise] - the promise that generated the error
+  alert(event.reason); // Error: Whoops! - the unhandled error object
+});
+

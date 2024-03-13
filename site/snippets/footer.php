@@ -6,9 +6,12 @@
 <script>
     const csrf = "<?= csrf() ?>";
 </script>
-<?= js(
-    '@auto',
-    'assets/js/index.js', ['type' => 'module']
-    ) ?>
+<?= js([
+    'assets/js/index.js',
+    '@auto'    
+]) ?>
+
+'@auto',
+
 </body>
 </html>
