@@ -1,0 +1,99 @@
+title: Editor
+
+tabs:
+  address:
+    label: Address
+    icon: text
+    sections:
+      address:
+        type: fields
+        fields:
+          street:
+            label: Street
+            type: text
+          zip:
+            label: ZIP
+            type: text
+            width: 1/4
+          city:
+            label: City
+            type: text
+            width: 3/4
+          country:
+            label: Country
+            type: text
+
+  info:
+    label: Additional info
+    icon: instagram
+    sections:
+      info:
+        type: fields
+        fields:
+          website:
+            label: Website
+            type: url
+            width: 1/2
+          instagram:
+            label: Instagram
+            type: text
+            icon: instagram
+            width: 1/2
+          bio:
+            label: Bio
+            type: textarea
+
+permissions:
+  access:
+    account: true
+    panel: true
+    site: true
+    languages: true
+    system: false
+    users: false
+  files:
+    create: true
+    changeName: true
+    changeTemplate: true
+    delete: true
+    read: true
+    replace: true
+    update: true
+  languages:
+    create: false
+    delete: false
+  pages:
+    access: true
+    changeSlug: true
+    changeStatus: true
+    changeTemplate: false
+    changeTitle: true
+    create: true
+    delete: true
+    list: true
+    move: true
+    duplicate: true
+    preview: true
+    read: true
+    sort: true
+    update: true
+  site:
+    changeTitle: false
+    update: false
+  user:
+    changeEmail: true
+    changeLanguage: true
+    changeName: true
+    changePassword: true
+    changeRole: true
+    delete: true
+    update: true
+  users:
+    changeEmail: false
+    changeLanguage: false
+    changeName: false
+    changePassword: false
+    changeRole: false
+    create: false
+    delete: false
+    update: false

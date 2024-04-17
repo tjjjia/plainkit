@@ -2,22 +2,59 @@ title: Network
 icon: 🌐
 
 options:
-  changeSlug: false
-  changeStatus: false
-  delete: false
+  changeSlug:
+    editor: false
+  changeStatus:
+    editor: false
+  changeTemplate:
+    editor: false
+  changeTitle:
+    editor: false
+  create:
+    editor: false
+  delete:
+    editor: false
+  move:
+    editor: false
+  duplicate:
+    editor: false
+  sort:
+    editor: false
 
-sections:
-  listed:
-    extends: sections/organisations
-    label: Published organisations
-    status: listed
+columns:
+  left:
+    width: 1/3
+    fields:
+      nethworkHeadline:
+        type: headline
+        label: About Cinema Collectiva
+      introduction:
+        type: textarea
+        size: medium
+        buttons:
+          - bold
+          - italic
+          - "|"
+          - link
+          - email
+      contact:
+        type: email
 
-  drafts:
-    extends: sections/organisations
-    label: Unpublished organisations
-    status: draft
+  organisations:
+    width: 2/3
 
-  unlisted:
-    extends: sections/organisations
-    label: Unlisted organisations
-    status: unlisted
+    sections:
+      listed:
+        extends: sections/organisations
+        label: Published organisations
+        status: listed
+
+      drafts:
+        extends: sections/organisations
+        label: Draft organisations
+        status: draft
+
+      unlisted:
+        extends: sections/organisations
+        label: Unlisted organisations
+        status: unlisted

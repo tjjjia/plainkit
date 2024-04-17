@@ -2,9 +2,26 @@ title: Calendar
 icon: 🗓️
 
 options:
-  changeSlug: false
-  changeStatus: false
-  delete: false
+  changeSlug:
+    editor: false
+  changeStatus:
+    editor: false
+  changeTemplate:
+    editor: false
+  changeTitle:
+    editor: false
+  create:
+    editor: false
+  delete:
+    editor: false
+  move:
+    editor: false
+  duplicate:
+    editor: false
+  sort:
+    editor: false
+  update:
+    editor: false
 
 sections:
   listed:

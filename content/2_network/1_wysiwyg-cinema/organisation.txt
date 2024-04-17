@@ -1,16 +1,8 @@
-Title: wysiwyg cinema
+Title: wysiwyg
 
 ----
 
-Name: wysiwyg cinema
-
-----
-
-Headline: Space for artists with film-making practices.
-
-----
-
-Description: wysiwyg (what you see is what you get) is an organisation from The Hague (Netherlands) that creates space for artists with film-making practices. Through experimentation with events, programming, and dialogue, wysiwyg strengthens the playful exchange between artists, audiences and works. By weaving local and international networks, they add a stronger position for artists with film-making practices in the cinematic landscape.
+Headline: wysiwyg
 
 ----
 
@@ -18,19 +10,46 @@ Location: The Hague
 
 ----
 
-Homepageurl: https://wysiwygcinema.net/
+Description: wysiwyg (what you see is what you get) is an organisation from The Hague (Netherlands) that creates space for artists with film-making practices. Through experimentation with events, programming, and dialogue, wysiwyg strengthens the playful exchange between artists, audiences and works. By weaving local and international networks, they add a stronger position for artists with film-making practices in the cinematic landscape.
 
 ----
 
-Socialurl: https://www.instagram.com/wysiwygcinema/
+Socialurl:
+
+- 
+  url: https://wysiwygcinema.net/
+  description: Homepage
+- 
+  url: https://www.instagram.com/wysiwygcinema/
+  description: Instagram
 
 ----
 
-Address: 
+Contact: info@wysiwygcinema.net
 
 ----
 
 Cover: - file://XRpvJDQO9pIAVZWJ
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Name: wysiwyg cinema
+
+----
+
+Homepageurl: https://wysiwygcinema.net/
+
+----
+
+Address: 
 
 ----
 

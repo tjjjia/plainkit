@@ -6,23 +6,26 @@ Headline: Chute Film Coop
 
 ----
 
-Description: Chute is an experimental film cooperative, founded in 2021 and is currently based in Istanbul and The Hague.
-
-----
-
 Location: Istanbul/The Hague
 
 ----
 
-Homepageurl: https://www.chutecoop.com/
+Description: Chute is an experimental film cooperative, founded in 2021 and is currently based in Istanbul and The Hague.
 
 ----
 
-Socialurl: https://www.instagram.com/chutefilmcoop/
+Socialurl:
+
+- 
+  url: https://www.chutecoop.com/
+  description: Homepage
+- 
+  url: https://www.instagram.com/chutefilmcoop/
+  description: Instagram
 
 ----
 
-Address: 
+Contact: 
 
 ----
 
@@ -35,6 +38,14 @@ Seotitle: Chute Film Coop
 ----
 
 Seodescription: Chute is an experimental film cooperative, founded in 2021 and is currently based in Istanbul and The Hague.
+
+----
+
+Homepageurl: https://www.chutecoop.com/
+
+----
+
+Address: 
 
 ----
 

@@ -2,6 +2,16 @@ title: Event
 icon: 📅
 num: "{{ page.datefrom.toDate('Ymd') }}"
 
+options:
+  changeTemplate:
+    editor: false
+  duplicate:
+    editor: false
+  move:
+    editor: false
+  sort:
+    editor: false
+
 tabs:
   content:
     label: Content
@@ -20,8 +30,9 @@ tabs:
             type: text
             width: 1/2
 
-          organisation:
-            label: Organisation
+          organisationInternal:
+            width: 1/2
+            label: Internal
             type: multiselect
             min: 1
             options:
@@ -29,9 +40,10 @@ tabs:
               query: page('network').children.listed
               text: "{{ page.title }}"
               value: "{{ page.slug }}"
-              # wysiwyg: wysiwyg
-              # homecinema: Home Cinema
-              # chute: Chute Film Coop
+          organisationExternal:
+            width: 1/2
+            label: External
+            type: tags
 
           locationHeadline:
             label: Location and tickets
@@ -106,6 +118,13 @@ tabs:
           description:
             label: Description
             type: textarea
+            size: medium
+            buttons:
+              - bold
+              - italic
+              - "|"
+              - link
+
           cover:
             label: Cover for event
             type: files

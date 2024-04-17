@@ -1,0 +1,77 @@
+Title: Gllued & Screwed 17
+
+----
+
+Headline: Glued & Screwed 17
+
+----
+
+Subhead: Short films
+
+----
+
+Organisation: wysiwyg-cinema
+
+----
+
+Location: Filmhuis Den Haag
+
+----
+
+Geolocation: https://www.google.com
+
+----
+
+Ticketvendor: 
+
+----
+
+Ticketvendorurl: 
+
+----
+
+Datefrom: 2024-04-24
+
+----
+
+Dateto: 2024-04-24
+
+----
+
+Isallday: true
+
+----
+
+Timefrom: 21:00:00
+
+----
+
+Timeto: 22:00:00
+
+----
+
+Timezone: 
+
+----
+
+Description: asdsadsadsadasdsd
+
+----
+
+Cover: - file://XRpvJDQO9pIAVZWJ
+
+----
+
+Gallery: 
+
+----
+
+Seotitle: Hahaha
+
+----
+
+Seodescription: hahahaha
+
+----
+
+Uuid: xdH5xES6OAzpkumR

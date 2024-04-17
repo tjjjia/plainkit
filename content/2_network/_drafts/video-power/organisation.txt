@@ -1,0 +1,44 @@
+Title: VIDEO POWER
+
+----
+
+Headline: VIDEO POWER
+
+----
+
+Location: Maastricht, Netherlands
+
+----
+
+Description: 
+
+----
+
+Socialurl:
+
+- 
+  url: https://www.videopower.eu/
+  description: Homepage
+- 
+  url: https://www.instagram.com/video_power/
+  description: instagram
+
+----
+
+Contact: 
+
+----
+
+Cover: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Uuid: 7BePer5IWtLM9Fof
