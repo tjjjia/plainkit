@@ -3,10 +3,9 @@
 // $data = [
 //   'title' => $page->title()->value()
 // ];
-
-
-// echo json_encode($data);
-$html .= snippet('organisation', ['organisation' => $organisation], true);
+foreach($organisations as $organisation){
+	$html .= snippet('dsfasf-organisation', ['organisation' => $organisation], true);
+}
 
 $json['html'] = $html;
 $json['more'] = $more;

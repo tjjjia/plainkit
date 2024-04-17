@@ -2,7 +2,7 @@
 
 foreach($events as $event) {
 
-  $html .= snippet('listitem', ['event' => $event], true);
+  $html .= snippet('listed-event', ['event' => $event], true);
 
 }
 

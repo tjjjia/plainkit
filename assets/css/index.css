@@ -164,6 +164,16 @@ main {
   border-bottom: 1px black solid;
 }
 
+/* EVENT */
+.organisation * {
+  display: block;
+}
+
+.organisations li {
+  border-bottom: 1px black solid;
+}
+
+/* FOOTER */
 footer {
   position: fixed;
   bottom: 0;
@@ -172,7 +182,6 @@ footer {
   width: 100%;
   gap: var(--padding);
 }
-
 /* GENERAL */
 
 .hidden {
