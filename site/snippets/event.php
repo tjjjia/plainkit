@@ -19,7 +19,7 @@
     </div>
     <div class="organisation">
         <div>Organised by: 
-            <?php foreach ($event->organisation()->split() as $organisation): ?>
+            <?php foreach ($event->organisationinternal()->split() as $organisation): ?>
                 <?= $pages->find('network')->children()->find($organisation)->title() ?>
             <?php endforeach ?>
         </div>
