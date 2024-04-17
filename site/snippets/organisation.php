@@ -25,20 +25,16 @@ $currentpage = $organisation;
 	</div>
 	<div class="online">
 		<ul>
-		<?php if($currentpage->homepageurl()): ?>
+		<?php 
+			$items = $currentpage->socialurl()->toStructure(); 
+			foreach($items as $item):
+		?>
 			<li>
-				<a href="<?= $currentpage->homepageurl() ?>" title="Go to <?=$currentpage->title() ?>'s Homepage" target="_blank">
-					Homepage
+				<a href="<?= $item->url() ?>" title="Go to <?=$item->description() ?>" target="_blank">
+				<?=$item->description() ?>
 				</a>
 			</li>
-		<?php endif	?>
-		<?php if($currentpage->socialurl()): ?>
-			<li>
-				<a href="<?= $currentpage->socialurl() ?>" title="Go to <?=$currentpage->title() ?>'s Social Media" target="_blank">
-					Social Media
-				</a>
-			</li>
-		<?php endif	?>
+		<?php endforeach ?>
 		</ul>
 	</div>
 
