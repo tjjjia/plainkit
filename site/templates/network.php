@@ -1,15 +1,17 @@
 <?php snippet('header') ?>
 
 <div id="index" class="main-container">
+    <div class="intro">
+        <?= $page->introduction()->kt() ?>
+    </div>
+
     <ul class="organisations" id="listed">
     <?php foreach($page->children()->listed()->sortBy('title', 'asc') as $organisation): ?>
         <li class="modal-links" data-link="<?= $organisation->url()?>">
             <a href="<?= $organisation->url() ?>">
                 <?= html($organisation->title()) ?>
             </a>
-            <br>
-            <?= html($organisation->headline()) ?>
-
+            <span class="organisation-location">(<?= $organisation->location() ?>)</span>
         </li>
     <?php endforeach ?>
     </ul>

@@ -10,11 +10,11 @@ Subhead: it has happened
 
 ----
 
-Organisationinternal: wysiwyg-cinema
+Organisationinternal: wysiwy
 
 ----
 
-Organisationexternal: 
+Organisationexternal: External A, External B
 
 ----
 
@@ -75,10 +75,6 @@ Seotitle: A Festival In The past
 ----
 
 Seodescription: Cosmic Realism, the first retrospective featuring the works of Véréna Paravel and Lucien Castaing-Taylor. Trained as anthropologists, they merge anthropology, documentaries, and visual arts in their craft.
-
-----
-
-Organisation: chute-film-coop
 
 ----
 

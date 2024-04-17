@@ -10,7 +10,11 @@ Subhead: This will be happening soon
 
 ----
 
-Organisation: wysiwyg-cinema, chute-film-coop
+Organisationinternal: home-cinema
+
+----
+
+Organisationexternal: 
 
 ----
 
@@ -63,6 +67,14 @@ Cover: - file://XRpvJDQO9pIAVZWJ
 ----
 
 Gallery: - file://XRpvJDQO9pIAVZWJ
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
 
 ----
 

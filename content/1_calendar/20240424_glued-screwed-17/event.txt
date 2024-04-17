@@ -1,0 +1,96 @@
+Title: Glued & Screwed 17
+
+----
+
+Headline: Glued & Screwed 17
+
+----
+
+Subhead: 
+
+----
+
+Organisationinternal: wysiwy
+
+----
+
+Organisationexternal: The Balcony
+
+----
+
+Location: Filmhuis Den Haag
+
+----
+
+Geolocation: https://www.google.com
+
+----
+
+Ticketvendor: Tickets
+
+----
+
+Ticketvendorurl: https://filmhuisdenhaag.nl/films/glued-screwed-17
+
+----
+
+Datefrom: 2024-04-24
+
+----
+
+Dateto: 2024-04-24
+
+----
+
+Isallday: true
+
+----
+
+Timefrom: 21:00:00
+
+----
+
+Timeto: 22:30:00
+
+----
+
+Timezone: 
+
+----
+
+Description:
+
+Edition 17 of Glued & Screwed will be a collaboration with The Balcony, an exhibition and curatorial platform based in The Hague and founded in 2018 by Arthur Cordier & Valentino Russo. Through e-mailing back-and-forth various inspiring art- and short film titles, the silhouettes of a shared interested started to appear from amongst the digital correspondence. It’s contours, it turned out, consisted of urban life at the interplay of architecture and politics, and with that a visually striking and pertinent short-film program was quickly formed, representing an exciting mix of talented local and international filmmakers.
+
+This edition will screen:
+**Where the facade bends** (Netherlands, 2021) by Sophie Czich
+English language and subtitles
+
+**Descent** (United Kingdom, 2023) by Syd Farrington
+No dialogue
+
+**Suicide Box** (United States, 1996) by Bureau of Inverse Technology
+No dialogue
+
+**La casa** (ostinato crescendo) (Netherlands, 2018) by Giovanni Giaretta
+No dialogue
+
+----
+
+Cover: - file://XRpvJDQO9pIAVZWJ
+
+----
+
+Gallery: 
+
+----
+
+Seotitle: Hahaha
+
+----
+
+Seodescription: hahahaha
+
+----
+
+Uuid: xdH5xES6OAzpkumR

@@ -1,0 +1,58 @@
+Title: Home Cinema
+
+----
+
+Headline: Home Cinema
+
+----
+
+Location: Amsterdam/The Hague
+
+----
+
+Description:
+
+Near, far, wherever you are, this is Home Cinema, a video platform curating, screening, streaming, and archiving artist films.
+Home Cinema designs online streams and physical screenings, challenging storytelling formats. Through invitations and open calls, Home Cinema’s programs formally respond to the question: What can we see together when we cannot see each other?
+In past editions, Home Cinema has collaborated with wysiwyg, Filmhuis Den Haag, Reneenee, Laak, Waag Society, Rialto UV, Heartqore, Sandberg Instituut, Mike Kokken, Julian Ross, WORKNOT!, Karina Zavidova… Our 2023 programs are generously supported by Stimuleringsfonds Creative Industries.
+Home Cinema was founded in 2020 by Carmen Dusmet Carrasco and Andrea González Garrán, designed and developed with Lukas Engelhardt.
+
+----
+
+Socialurl:
+
+- 
+  url: >
+    https://www.instagram.com/homecinemaaaaaaaa/
+  description: Instagram
+- 
+  url: https://homecinema.video/
+  description: Homepage
+
+----
+
+Contact: hellohomecinema@gmail.com
+
+----
+
+Cover: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Homepageurl: 
+
+----
+
+Address: 
+
+----
+
+Uuid: wcN1RkAx9fB0Bnfp

@@ -1,4 +1,4 @@
-Title: Glued & Scewed 16
+Title: Glued & Screwed 16
 
 ----
 
@@ -10,7 +10,11 @@ Subhead:
 
 ----
 
-Organisation: filmhuis-den-haag, wysiwyg-cinema
+Organisationinternal: video-power, wysiwy
+
+----
+
+Organisationexternal: 
 
 ----
 
@@ -63,6 +67,14 @@ Cover:
 ----
 
 Gallery: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
 
 ----
 

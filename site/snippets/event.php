@@ -19,8 +19,11 @@
     </div>
     <div class="organisation">
         <div>Organised by: 
-            <?php foreach ($event->organisationinternal()->split() as $organisation): ?>
-                <?= $pages->find('network')->children()->find($organisation)->title() ?>
+            <?php foreach ($event->organisationinternal()->split() as $internal): ?>
+                <span><?= page('network')->index()->findBy('slug', $internal)->title() ?></span>
+            <?php endforeach ?>
+            <?php foreach ($event->organisationexternal()->split() as $external): ?>
+                <span><?= $external ?></span>
             <?php endforeach ?>
         </div>
         <div>Venue: <?= $event->location() ?></div>

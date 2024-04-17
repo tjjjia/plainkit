@@ -13,7 +13,7 @@ columns:
   isallday: true
     label: All day?
     width: 1/12
-  organisation: true
+  organisationinternal: true
     label: Organisation
   location: true
     label: Venue

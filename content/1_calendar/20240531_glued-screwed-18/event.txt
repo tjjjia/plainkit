@@ -1,0 +1,81 @@
+Title: Glued & Screwed 18
+
+----
+
+Headline: Glued & Screwed
+
+----
+
+Subhead: 
+
+----
+
+Organisationinternal: wysiwy
+
+----
+
+Organisationexternal: 
+
+----
+
+Location: Filmhuis The Hague
+
+----
+
+Geolocation: 
+
+----
+
+Ticketvendor: Tickets
+
+----
+
+Ticketvendorurl: https://filmhuisdenhaag.nl/glued-and-screwed
+
+----
+
+Datefrom: 2024-05-31
+
+----
+
+Dateto: 2024-05-31
+
+----
+
+Isallday: true
+
+----
+
+Timefrom: 21:00:00
+
+----
+
+Timeto: 22:30:00
+
+----
+
+Timezone: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Gallery: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Uuid: XJyQj5hyxYZVGaNX

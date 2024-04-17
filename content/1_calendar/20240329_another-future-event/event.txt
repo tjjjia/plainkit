@@ -10,7 +10,11 @@ Subhead: This will be happening soon
 
 ----
 
-Organisation: filmhuis-den-haag, chute-film-coop
+Organisationinternal: home-cinema
+
+----
+
+Organisationexternal: 
 
 ----
 
@@ -67,6 +71,14 @@ Gallery:
 - file://XRpvJDQO9pIAVZWJ
 - file://tFxxbspk4oErGko2
 - file://McKnjnOOkaMHqCBY
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
 
 ----
 

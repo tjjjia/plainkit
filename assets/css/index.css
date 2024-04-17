@@ -173,6 +173,10 @@ main {
   border-bottom: 1px black solid;
 }
 
+.organisation-location {
+  margin-left: 0.25em;
+}
+
 /* FOOTER */
 footer {
   position: fixed;

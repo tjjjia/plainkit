@@ -5,12 +5,16 @@ num: "{{ page.datefrom.toDate('Ymd') }}"
 options:
   changeTemplate:
     editor: false
-  duplicate:
-    editor: false
   move:
     editor: false
   sort:
     editor: false
+
+create:
+  fields:
+    - organisationInternal
+    - dateFrom
+    - dateTo
 
 tabs:
   content:

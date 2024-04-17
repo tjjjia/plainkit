@@ -1,7 +1,13 @@
 </main>
 <footer>
     <div>Cinema Collectiva &#169;<?php echo date("Y"); ?></div>
-    <div>Contact email at website.com</div>
+    <div class="contact">
+        <?= kirbytag([
+            'email' => $site->page('network')->contact(),
+            'text'  => 'Contact us'
+            ]);
+        ?>
+    </div>
 </footer>
 <script>
     const csrf = "<?= csrf() ?>";

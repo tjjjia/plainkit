@@ -10,10 +10,6 @@ Subhead:
 
 ----
 
-Organisation: 
-
-----
-
 Location: 
 
 ----

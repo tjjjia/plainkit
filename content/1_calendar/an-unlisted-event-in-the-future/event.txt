@@ -10,7 +10,11 @@ Subhead: Unseen but will arrive
 
 ----
 
-Organisation: wysiwyg-cinema, filmhuis-den-haag, chute-film-coop
+Organisationinternal: chute-film-coop
+
+----
+
+Organisationexternal: 
 
 ----
 
@@ -63,6 +67,14 @@ Cover: - file://McKnjnOOkaMHqCBY
 ----
 
 Gallery: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
 
 ----
 
