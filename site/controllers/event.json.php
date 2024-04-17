@@ -8,4 +8,4 @@ return function ($page) {
       'html'     => '',
       'json'     => [],
     ];
-};
+};  

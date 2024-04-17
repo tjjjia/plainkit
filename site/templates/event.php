@@ -3,7 +3,7 @@
 <div id="index" class="main-container">
     <ul class="events" data-page="2" id="listed">
         <?php foreach($site->page('calendar')->children()->listed() as $event): ?>
-            <?= snippet('listitem', ['event' => $event]); ?>
+            <?= snippet('listed-event', ['event' => $event]); ?>
         <?php endforeach ?>
     </ul>
 </div>

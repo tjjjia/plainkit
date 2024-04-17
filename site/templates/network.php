@@ -1,29 +1,28 @@
 <?php snippet('header') ?>
 
 <div id="index" class="main-container">
-    <ul id="listed">
-    <?php foreach($page->children()->listed() as $lipage): ?>
-        <li class="modal-links" data-link="<?= $lipage->url()?>">
-            <a href="<?= $lipage->url() ?>">
-                <?= html($lipage->title()) ?>
+    <ul class="organisations" id="listed">
+    <?php foreach($page->children()->listed()->sortBy('title', 'asc') as $organisation): ?>
+        <li class="modal-links" data-link="<?= $organisation->url()?>">
+            <a href="<?= $organisation->url() ?>">
+                <?= html($organisation->title()) ?>
             </a>
+            <br>
+            <?= html($organisation->headline()) ?>
+
         </li>
     <?php endforeach ?>
+    </ul>
 
-    <ul id="unlisted">
+    <!-- <ul id="unlisted">
     <?php foreach($page->children()->unlisted() as $ulpage): ?>
         <li>
             <a href="<?= $ulpage->url() ?>">
             <?= html($ulpage->title()) ?></a>
         </li>
     <?php endforeach ?>
-    </ul>
-    </ul>
+    </ul> -->
 </div>
-<div id="render" class="main-container">
-    <div id="display">
-        Result
-    </div>
-</div>
+<div id="render" class="main-container"></div>
 
 <?php snippet('footer') ?>
