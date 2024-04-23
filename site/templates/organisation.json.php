@@ -1,18 +1,14 @@
 <?php
 
-// $data = [
-//   'title' => $page->title()->value(),
-//   'headline' => $page->headline()->value(),
-//   'description' => $page->description()->value(),
-//   'location' => $page->location()->value(),
-//   'homepageurl' => $page->homepageurl()->value(),
-// ];
 
-// echo json_encode($data);
+$meta = [
+	'url'   => (string)$page->url(),
+	'title' => (string)$page->title()
+];
 
 $html .= snippet('organisation', ['organisation' => $organisation], true);
 
-
+$json['meta'] = $meta;
 $json['html'] = $html;
 
 echo json_encode($json);

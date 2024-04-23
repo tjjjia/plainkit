@@ -9,7 +9,7 @@ const project_div = document.querySelector("#index");
 // Create a DocumentFragment (explained below)
 const createItem = document.createDocumentFragment();
 
-// link handler
+// Link handler
 const linkHandler = function (event) {
   event.preventDefault();
   const target = event.target;
@@ -31,13 +31,25 @@ const fetchProject = async (url) => {
 
     const json = `${url}.json`;
     const response = await fetch(json);
-    const { html } = await response.json();
 
+    const { meta, html } = await response.json();
+  
     renderProject(html, true);
+
+    history.pushState({meta, html}, "", meta.url);
   } catch (error) {
     console.log("Fetch error: ", error);
   }
 };
+
+// Handle forward/back buttons
+window.addEventListener("popstate", (event) => {
+  if (event.state) {
+    // Simulate the loading of the previous page
+    const { meta, html } = event.state;
+    renderProject(html, true);
+  }
+});
 
 // html to DOM
 const renderProject = function (html, clear) {
