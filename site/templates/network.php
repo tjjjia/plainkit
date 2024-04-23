@@ -8,9 +8,7 @@
     <ul class="organisations" id="listed">
     <?php foreach($page->children()->listed()->sortBy('title', 'asc') as $organisation): ?>
         <li class="modal-links" data-link="<?= $organisation->url()?>">
-            <a href="<?= $organisation->url() ?>">
-                <?= html($organisation->title()) ?>
-            </a>
+            <a href="<?= $organisation->url() ?>"><?= html($organisation->title()) ?></a>
             <span class="organisation-location">(<?= $organisation->location() ?>)</span>
         </li>
     <?php endforeach ?>

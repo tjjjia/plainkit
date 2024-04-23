@@ -1,7 +1,5 @@
 <li>
-    <a href="<?= $event->url() ?>">
-        <?= $event->title() ?>
-    </a>
+    <a href="<?= $event->url() ?>"><?= $event->title() ?></a>
     <div>        
         <time><?= $event->datefrom() ?></time>
         <div>
