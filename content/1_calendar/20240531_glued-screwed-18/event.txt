@@ -22,6 +22,10 @@ Location: Filmhuis The Hague
 
 ----
 
+City: The Hague
+
+----
+
 Geolocation: 
 
 ----

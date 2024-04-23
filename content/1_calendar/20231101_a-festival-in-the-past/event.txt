@@ -22,6 +22,10 @@ Location: Eye FIlm Museum
 
 ----
 
+City: Amsterdam
+
+----
+
 Geolocation: https://maps.app.goo.gl/mdMx3MziYoVKyELk9
 
 ----

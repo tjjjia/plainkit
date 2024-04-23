@@ -14,11 +14,15 @@ Organisationinternal: video-power, wysiwy
 
 ----
 
-Organisationexternal: 
+Organisationexternal: Filmhuis The Hague
 
 ----
 
-Location: 
+Location: Online
+
+----
+
+City: Online
 
 ----
 

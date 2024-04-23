@@ -22,6 +22,10 @@ Location: De Bibliotheek
 
 ----
 
+City: Istanbul
+
+----
+
 Geolocation: https://maps.app.goo.gl/H5GBaUFiqLMHpD1X8
 
 ----

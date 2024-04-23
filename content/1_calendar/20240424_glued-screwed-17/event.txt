@@ -18,7 +18,11 @@ Organisationexternal: The Balcony
 
 ----
 
-Location: Filmhuis Den Haag
+Location: Filmhuis The Hague
+
+----
+
+City: The Hague
 
 ----
 

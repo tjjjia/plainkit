@@ -17,5 +17,7 @@ columns:
     label: Organisation
   location: true
     label: Venue
+  city: true
+    label: City
 template: event
 empty: No events yet
