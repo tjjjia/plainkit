@@ -33,6 +33,5 @@ return function ($page) {
       'limit'      => $limit,
       'events'   => $events,
       'pagination' => $events->pagination()
-      'has' => $events->pagination()
   ];
 };
