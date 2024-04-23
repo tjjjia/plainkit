@@ -3,7 +3,12 @@
 return function ($page) {
 
   $limit      = 2;
-  $events     = $page->children()->listed()->paginate($limit);
+  $today = date('Y-m-d');
+  $unfiltered = $page->children()->listed();
+  $upcoming = $unfiltered->filter(function($child) use($today){
+    return $child->dateTo()->toDate('Y-m-d') >= $today;
+  });
+  $events     = $upcoming->paginate($limit);
   $pagination = $events->pagination();
   $more       = $pagination->hasNextPage();
 
