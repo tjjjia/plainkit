@@ -10,7 +10,7 @@ Subhead:
 
 ----
 
-Organisationinternal: wysiwy
+Organisationinternal: wysiwyg
 
 ----
 

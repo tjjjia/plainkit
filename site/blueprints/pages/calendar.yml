@@ -24,22 +24,24 @@ options:
     editor: false
 
 sections:
-  listed:
+  # listed:
+  #   extends: sections/events
+  #   label: Published events
+  #   status: listed
+  #   search: true
+
+  upcoming:
     extends: sections/events
-    label: Published events
+    label: Upcoming events
     status: listed
+    search: true
+    query: page.children.listed.filterBy("datefrom", '>=', page.currentdate)
 
-  # upcoming:
-  #   extends: sections/events
-  #   label: Upcoming events
-  #   status: listed
-  #   query: page.children.listed.filterBy("datefrom", '>=', page.currentdate)
-
-  # past:
-  #   extends: sections/events
-  #   label: Past events
-  #   status: listed
-  #   query: page.children.listed.filterBy("datefrom", '<', page.currentdate)
+  past:
+    extends: sections/events
+    label: Past events
+    status: listed
+    query: page.children.listed.filterBy("datefrom", '<', page.currentdate)
 
   drafts:
     extends: sections/events
