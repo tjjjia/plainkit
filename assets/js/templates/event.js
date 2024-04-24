@@ -8,14 +8,17 @@ const fetchCalendar = async () => {
     const response = await fetch(url);
     const { html, more } = await response.json();
 
-	console.log(html, more);
+    console.log(html, more);
     loadmore_button.hidden = !more;
     element.insertAdjacentHTML("beforeend", html);
 
     page++;
   } catch (error) {
+    element.insertAdjacentHTML("beforeend", "<span>Error loading content</span>");
     console.log("Fetch error: ", error);
   }
 };
 
-loadmore_button.addEventListener("click", fetchCalendar);
+if (loadmore_button){
+  loadmore_button.addEventListener("click", fetchCalendar);
+};

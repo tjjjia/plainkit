@@ -1,11 +1,19 @@
 <?php snippet('header') ?>
 
 <div id="index" class="main-container">
-    <ul class="events" data-page="2" id="listed">
-        <?php foreach($site->page('calendar')->children()->listed() as $event): ?>
-            <?= snippet('listed-event', ['event' => $event]); ?>
-        <?php endforeach ?>
+    <ul class="events" data-page="<?= $pagination->nextPage() ?>" id="listed">
+        <?php
+            if( count($events) > 0){
+                foreach($events as $event) {
+                    echo snippet('listed-event', ['event' => $event]);
+                }
+            } else {
+                echo "No more events";
+            };
+        ?>
     </ul>
+
+    <button class="load-more" accesskey="m" <?= $more ?: "hidden"; ?>>Load more</button>
 </div>
 <div id="render" class="main-container">
     <?php snippet('event', ['event' => $page]) ?>

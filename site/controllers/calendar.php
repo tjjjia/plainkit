@@ -5,10 +5,10 @@ return function ($page) {
   $unfiltered = $page->children()->listed();
 
   $time = param("time");
-  if ($time == "all"){
+  if ($time == "all-time" || $time == "all" ){
     // show all events, unfiltered
     $events = $unfiltered;
-  } else if($time == "this-week"){
+  } else if($time == "this-week" || $time == "week"){
     // show this weeks events (this year, this week no.)
     $week = date('YW');
     $thisweek = $unfiltered->filter(function($child) use($week){
@@ -23,15 +23,27 @@ return function ($page) {
       return $child->dateTo()->toDate('Y-m-d') >= $today;
     });
     $events = $upcoming;  
-
   }
 
-  $events = $events->paginate($limit);  
+  $city = param("city");
+  if($city){
+    $events = $events->filter(function($child) use($city){
+      return strtolower($child->city()) === strtolower($city);
+    });
+  }
 
+  $events = $events->paginate($limit);
+
+  $cities = $unfiltered->pluck('city', ',', true);
+
+  $pagination = $events->pagination();
+  $more       = $pagination->hasNextPage();
 
   return [
       'limit'      => $limit,
       'events'   => $events,
-      'pagination' => $events->pagination()
+      'pagination' => $pagination,
+      'more'     => $more,
+      'cities' => $cities
   ];
 };

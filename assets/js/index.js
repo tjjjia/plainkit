@@ -5,23 +5,29 @@
 const element = document.querySelector(".events");
 const render_div = document.querySelector("#render");
 const project_div = document.querySelector("#index");
+const listed_div = document.querySelector("#listed");
+const baseTitle = "Cinema Collectiva";
 
 // Create a DocumentFragment (explained below)
 const createItem = document.createDocumentFragment();
 
 // Link handler
 const linkHandler = function (event) {
-  event.preventDefault();
   const target = event.target;
 
   // check if the clicked element is an <a> tag
   const type = target.tagName.toLowerCase();
-  if (type != "a") {
-    return;
-  } else {
-    const url = event.target.href;
-    fetchProject(url);
-  }
+  if (type != "a") { return; }
+
+  // exclude some links for debugging (currently time and city filters)
+  const debug = target.hasAttribute("data-debug");
+  if (debug === true) { return; }
+
+  event.preventDefault();
+
+
+  const url = event.target.href;
+  fetchProject(url);
 };
 
 // fetch json
@@ -31,10 +37,9 @@ const fetchProject = async (url) => {
 
     const json = `${url}.json`;
     const response = await fetch(json);
-
     const { meta, html } = await response.json();
   
-    renderProject(html, true);
+    renderProject(html, meta, true);
 
     history.pushState({meta, html}, "", meta.url);
   } catch (error) {
@@ -47,14 +52,18 @@ window.addEventListener("popstate", (event) => {
   if (event.state) {
     // Simulate the loading of the previous page
     const { meta, html } = event.state;
-    renderProject(html, true);
+    renderProject(html, meta, true);
   }
 });
 
 // html to DOM
-const renderProject = function (html, clear) {
+const renderProject = function (html, meta, clear) {
   if (clear) {
     clearProject();
+  }
+  console.log(meta)
+  if(meta.title){
+    document.title = `${baseTitle} | ${meta.title}`;
   }
 
   const project_element = document.createElement("div");
