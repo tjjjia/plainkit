@@ -10,7 +10,7 @@ Subhead:
 
 ----
 
-Organisationinternal: video-power, wysiwy
+Organisationinternal: video-power, wysiwyg
 
 ----
 
