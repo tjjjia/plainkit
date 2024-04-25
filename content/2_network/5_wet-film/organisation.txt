@@ -1,0 +1,45 @@
+Title: WET film
+
+----
+
+Headline: WET film
+
+----
+
+Location: Rotterdam
+
+----
+
+Description:
+
+WET is a Rotterdam-based collective and project space for artists’ moving image, founded in 2019 by Marta Hryniuk, Erika Roux, Anna Łuczak, Nick Thomas and Sophie Bates. We provide a platform for public events, with a focus on artworks which challenge existing orthodoxies and propose alternative perspectives, and support the production of moving image works.
+WET first operated as a nomadic collective, assisting each other in the creation of new works, and in mid-2019 began to organise events in external spaces. Later we became a physical venue, and in 2023 registered as Stichting (foundation) WET.
+As a collective, we have a strong collaborative approach to artistic research and programming, which we translate into public moments. From the outset of WET we shared ideas around the type of work we find urgent and exciting; our aim is to stimulate the conversation around moving image work in the Netherlands and internationally. We also support artists in various ways, ranging from feedback sessions to acting as a producer on new works.
+
+----
+
+Socialurl:
+
+- 
+  url: https://wetfilm.org/
+  description: Homepage
+
+----
+
+Contact: 
+
+----
+
+Cover: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Uuid: mK3haxQ87ctlmRFt

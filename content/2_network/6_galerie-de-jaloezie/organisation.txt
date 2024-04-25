@@ -1,0 +1,41 @@
+Title: Galerie de Jaloezie
+
+----
+
+Headline: Galerie de Jaloezie
+
+----
+
+Location: Rotterdam
+
+----
+
+Description: Galerie de Jaloezie is een platform voor audiovisuele kunst opgericht door Gijs van der Meer en Anne Vera Veen. Na hun studies in Visuele Antropologie voelden zij het verlangen om deze gemeenschappelijke interesse voor experimentele film en audiovisuele installaties voort te zetten. Dit doen ze sinds december 2019 door het organiseren van niet-alledaagse filmvertoningen, een jaarlijkse 48-uur film challenge, openluchtbioscoop en meer recentelijk een pop-up galerie voor audiovisuele kunst. In verschillende hoedanigheden,- soms als programmeur en curator, soms als maker, soms als workshopgever, soms als filmproducent en organisator van culturele evenementen-, onderzoeken we de intersecties tussen beeldende kunst en film en zoeken we een hybride vorm tussen cinema en galerie. In al onze activiteiten staat het artistieke experiment en het onderzoeksproces centraal.
+
+----
+
+Socialurl:
+
+- 
+  url: https://galeriedejaloezie.org/
+  description: Homepage
+
+----
+
+Contact: 
+
+----
+
+Cover: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Uuid: elxT9BhNnYGleg54
