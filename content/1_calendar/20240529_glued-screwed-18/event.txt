@@ -1,4 +1,4 @@
-Title: Glued & Screwed 20
+Title: Glued & Screwed 18
 
 ----
 
@@ -6,7 +6,7 @@ Headline: Glued & Screwed
 
 ----
 
-Subhead: #20 w/ Indeks (Bandung)
+Subhead: #18 w/ Video Art Miden
 
 ----
 
@@ -26,23 +26,23 @@ City: The Hague
 
 ----
 
-Geolocation: 
+Geolocation: https://maps.app.goo.gl/TMb4f9qNevGaxVTF6
 
 ----
 
-Ticketvendor: Tickets
+Ticketvendor: More info
 
 ----
 
-Ticketvendorurl: https://filmhuisdenhaag.nl/glued-and-screwed
+Ticketvendorurl: https://filmhuisdenhaag.nl/films/glued-screwed-17
 
 ----
 
-Datefrom: 2024-10-23
+Datefrom: 2024-05-29
 
 ----
 
-Dateto: 2024-10-23
+Dateto: 2024-05-29
 
 ----
 
@@ -82,4 +82,4 @@ Seodescription:
 
 ----
 
-Uuid: 4zmMsl0f0n3mpI0y
+Uuid: XJyQj5hyxYZVGaNX

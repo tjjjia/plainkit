@@ -1,11 +1,12 @@
 /* reset/normalizer by https://piccalil.li/blog/a-modern-css-reset/ */
 
 :root {
-  --color-light-1: rgb(255, 228, 228);
-  --color-light-2: rgb(253, 255, 220);
+  --color-light-1: rgb(255, 148, 33);
+  --color-light-2: rgb(199, 199, 199);
   --color-light-3: rgb(202, 255, 253);
   --padding: 0.5em;
   --gap: 0.3em;
+  --font-1: Helvetica, Arial, sans-serif;
 }
 
 ul,
@@ -54,6 +55,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.35;
+  font-family: var(--font-1);
 }
 
 /* A elements that don't have a class get default styles */
@@ -126,6 +128,7 @@ main {
 
 #render {
   background-color: var(--color-light-3);
+  background-color: white;
 }
 
 /* SPINNER */
@@ -214,10 +217,16 @@ main {
   margin-left: auto;
 }
 
+.load-more {
+  width: 100%;
+  height: 50px;
+}
+
 /* EVENT */
 .event .header {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  line-height: 1.1;
 }
 
 .header {
@@ -243,6 +252,7 @@ main {
 
 .events li {
   border-top: 1px black solid;
+  padding: var(--padding) 0;
 }
 
 /* ORGANISATION */

@@ -1,0 +1,89 @@
+Title: Online Film Festival 2024 Week 5
+
+----
+
+Headline: Online Film Festival 2024
+
+----
+
+Subhead: Week 5
+
+----
+
+Organisationinternal: home-cinema
+
+----
+
+Organisationexternal: Sandberg
+
+----
+
+Location: Online
+
+----
+
+City: 
+
+----
+
+Geolocation: 
+
+----
+
+Ticketvendor: Stream
+
+----
+
+Ticketvendorurl: https://off24.homecinema.video/#Week5
+
+----
+
+Datefrom: 2024-03-25
+
+----
+
+Dateto: 2024-05-25
+
+----
+
+Isallday: false
+
+----
+
+Timefrom: 
+
+----
+
+Timeto: 
+
+----
+
+Timezone: 
+
+----
+
+Description:
+
+Dreams: Online Film Festival compiles the work of 40 visual artists under the topic of Dreams, accessible on demand for 5 weeks on Home Cinema!
+
+Dreams are often experienced as cinematic journeys, where the unconscious is given expression in fantastical ways. These experiences may contain mysterious juxtapositions of displaced subjects and objects, generate doubling, multiplying selves, mirror images, metamorphosis, bodily disintegration, and stretched, expanded, or zoomed realities. Dreams are composed of discontinuous narratives and fragmented projections that draw landscapes of possibility. Within the architecture of the dream, the past, present, and future converge in a different time and space.
+
+----
+
+Cover: - file://XRpvJDQO9pIAVZWJ
+
+----
+
+Gallery: - file://McKnjnOOkaMHqCBY
+
+----
+
+Seotitle: A Festival In The past
+
+----
+
+Seodescription: Cosmic Realism, the first retrospective featuring the works of Véréna Paravel and Lucien Castaing-Taylor. Trained as anthropologists, they merge anthropology, documentaries, and visual arts in their craft.
+
+----
+
+Uuid: eRLaRByZZSeEUjn9

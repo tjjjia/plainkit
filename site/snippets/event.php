@@ -16,7 +16,10 @@
         <?= snippet('event-organisations', ['event' => $event]); ?>
         <?php snippet('event-location', ['event' => $event], slots: true) ?>
             <div class="event-venue">
-                <a href="<?= $event->geolocation() ?>" data-debug="true" target="_blank"><?= $event->location() ?></a><span class="event-city"><?= $event->city() ?></span>
+                <a href="<?= $event->geolocation() ?>" data-debug="true" target="_blank"><?= $event->location() ?></a>
+                <?php if($event->city()->isNotEmpty()): ?>
+                    <span class="event-city"><?= $event->city() ?></span>
+                <?php endif ?>
             </div>
         <?php endsnippet() ?>
     </div>

@@ -1,0 +1,89 @@
+Title: Unfinished Film Festival 2024
+
+----
+
+Headline: Unfinished Film Festival 2024
+
+----
+
+Subhead: 
+
+----
+
+Organisationinternal: video-power
+
+----
+
+Organisationexternal: Odapark
+
+----
+
+Location: Odapark
+
+----
+
+City: Venray
+
+----
+
+Geolocation: 
+
+----
+
+Ticketvendor: 
+
+----
+
+Ticketvendorurl: 
+
+----
+
+Datefrom: 2024-07-16
+
+----
+
+Dateto: 2024-07-18
+
+----
+
+Isallday: false
+
+----
+
+Timefrom: 
+
+----
+
+Timeto: 
+
+----
+
+Timezone: 
+
+----
+
+Description:
+
+Are you haunted by a film you never made, an unfinished film, or a film you thought was finished but now want to rework again? Participate in the 2024 Unfinished Film Festival and camp with us at Odapark!
+
+To apply, send us a link to one of your films, and a short video (max 3min.) about your relationship to your unfinished film and/or interesting challenges in your life as a filmmaker. Participation is free, including meals and a tent.
+
+----
+
+Cover: 
+
+----
+
+Gallery: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Uuid: 5j3CVeOHJznWcnAA

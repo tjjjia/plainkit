@@ -9,7 +9,5 @@ image:
 columns:
   location: true
     label: Location
-  homepageUrl: true
-    label: Homepage
 template: organisation
 empty: No organisations yet

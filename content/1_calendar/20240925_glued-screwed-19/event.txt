@@ -6,7 +6,7 @@ Headline: Glued & Screwed
 
 ----
 
-Subhead: 
+Subhead: #19
 
 ----
 
@@ -62,7 +62,7 @@ Timezone:
 
 ----
 
-Description: 
+Description: Glued & Screwed is organised by experimental screeningplatforms and is as film night a platform for experiments for (young) artists, designers and other creators, international as well as local. Especially, the films that are missed in the regular film environments are offered a stage here. Think of it as a journey to a more experimental environments, an exploration of visual vocabularies.
 
 ----
 

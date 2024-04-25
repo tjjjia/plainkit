@@ -1,0 +1,89 @@
+Title: KABK Graduation Show 2024
+
+----
+
+Headline: KABK Graduation Show 2024
+
+----
+
+Subhead: 
+
+----
+
+Organisationinternal: wysiwyg
+
+----
+
+Organisationexternal: KABK
+
+----
+
+Location: KABK
+
+----
+
+City: The Hague
+
+----
+
+Geolocation: 
+
+----
+
+Ticketvendor: More information
+
+----
+
+Ticketvendorurl: https://www.kabk.nl/en/graduation-show
+
+----
+
+Datefrom: 2024-06-27
+
+----
+
+Dateto: 2024-07-02
+
+----
+
+Isallday: false
+
+----
+
+Timefrom: 
+
+----
+
+Timeto: 
+
+----
+
+Timezone: 
+
+----
+
+Description:
+
+The KABK Graduation Show 2024 is on view from Thursday 27 June to Tuesday 2 July. Discover the work of the art and design graduates, presented in an 8,000 m2 exhibition space in the historic academy building.
+
+Go on a journey of discovery through the corridors and be inspired by performances, illustrations, graphic design, installations, photography, film, painting and sound art.
+
+----
+
+Cover: 
+
+----
+
+Gallery: 
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Uuid: 2HV8us0ILbO8NXlQ
