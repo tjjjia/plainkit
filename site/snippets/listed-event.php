@@ -1,14 +1,11 @@
 <li>
     <a href="<?= $event->url() ?>"><?= $event->title() ?></a>
     <div>        
-        <time><?= $event->datefrom() ?></time>
-        <div>
-            <?php foreach ($event->organisationinternal()->split() as $internal): ?>
-                <span><?= page('network')->index()->findBy('slug', $internal)->title() ?></span>
-            <?php endforeach ?>
-            <?php foreach ($event->organisationexternal()->split() as $external): ?>
-                <span><?= $external ?></span>
-            <?php endforeach ?>
-        </div>
+        <?php snippet('event-date', ['event' => $event]); ?>
+        <?php snippet('event-organisations', ['event' => $event]); ?>
+        <?php snippet('event-location', ['event' => $event], slots: true) ?>
+            <div class="event-venue">
+                <?= $event->location() ?><span class="event-city"><?= $event->city() ?></span>
+        <?php endsnippet() ?>
     </div>
 </li>

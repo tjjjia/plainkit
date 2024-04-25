@@ -1,13 +1,11 @@
 <?php
-
-$currentpage = $organisation;
-
+	$currentpage = $organisation;
 ?>
 
 <div class="event">
 	<div class="header">
-		<h1><?= $currentpage->title() ?></h1>
-		<h2><em><?= $currentpage->headline() ?></em></h2>
+		<h1><?= $currentpage->headline() ?></h1>
+		<h4><?= $currentpage->location() ?></h2>
 	</div>
 	<div class="cover">
         <?php if($image = $currentpage->cover()->toFile()): ?>
@@ -16,12 +14,6 @@ $currentpage = $organisation;
 	</div>
 	<div class="content">
 		<?= $currentpage->description()->kt() ?>
-	</div>
-	<div class="offline">
-		<address>
-			<?= $currentpage->address() ?><br>
-			<?= $currentpage->location() ?>
-		</address>
 	</div>
 	<div class="online">
 		<ul>

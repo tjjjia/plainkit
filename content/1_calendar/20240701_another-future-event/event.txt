@@ -38,11 +38,11 @@ Ticketvendorurl: https://filmhuisdenhaag.nl/glued-and-screwed
 
 ----
 
-Datefrom: 2024-03-29
+Datefrom: 2024-07-01
 
 ----
 
-Dateto: 
+Dateto: 2024-07-01
 
 ----
 

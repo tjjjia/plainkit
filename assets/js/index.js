@@ -7,6 +7,7 @@ const render_div = document.querySelector("#render");
 const project_div = document.querySelector("#index");
 const listed_div = document.querySelector("#listed");
 const baseTitle = "Cinema Collectiva";
+const renderClose = document.getElementById("render-close");
 
 // Create a DocumentFragment (explained below)
 const createItem = document.createDocumentFragment();
@@ -17,14 +18,17 @@ const linkHandler = function (event) {
 
   // check if the clicked element is an <a> tag
   const type = target.tagName.toLowerCase();
-  if (type != "a") { return; }
+  if (type != "a") {
+    return;
+  }
 
   // exclude some links for debugging (currently time and city filters)
   const debug = target.hasAttribute("data-debug");
-  if (debug === true) { return; }
+  if (debug === true) {
+    return;
+  }
 
   event.preventDefault();
-
 
   const url = event.target.href;
   fetchProject(url);
@@ -33,15 +37,15 @@ const linkHandler = function (event) {
 // fetch json
 const fetchProject = async (url) => {
   try {
-    renderSpinner(render);
+    renderSpinner(render_div);
 
     const json = `${url}.json`;
     const response = await fetch(json);
     const { meta, html } = await response.json();
-  
+
     renderProject(html, meta, true);
 
-    history.pushState({meta, html}, "", meta.url);
+    history.pushState({ meta, html }, "", meta.url);
   } catch (error) {
     console.log("Fetch error: ", error);
   }
@@ -61,8 +65,8 @@ const renderProject = function (html, meta, clear) {
   if (clear) {
     clearProject();
   }
-  console.log(meta)
-  if(meta.title){
+  console.log(meta);
+  if (meta.title) {
     document.title = `${baseTitle} | ${meta.title}`;
   }
 
@@ -74,7 +78,8 @@ const renderProject = function (html, meta, clear) {
   render_div.appendChild(project_element);
 };
 
-const clearProject = function () {
+const clearProject = function (event) {
+  console.log(event);
   render_div.innerHTML = "";
 };
 
@@ -86,7 +91,7 @@ const renderSpinner = function (parentEl) {
   const markup = `
     <div class="spinner">
       <svg>
-          <use href="assets/img/icons.svg#icon-loader"></use>
+          <use href="/assets/img/icons.svg#icon-loader"></use>
       </svg>
     </div>
     `;

@@ -34,7 +34,7 @@ Ticketvendor: Tickets
 
 ----
 
-Ticketvendorurl: https://filmhuisdenhaag.nl/glued-and-screwed
+Ticketvendorurl: 
 
 ----
 

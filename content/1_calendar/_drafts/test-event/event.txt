@@ -10,7 +10,19 @@ Subhead:
 
 ----
 
+Organisationinternal: wysiwyg
+
+----
+
+Organisationexternal: 
+
+----
+
 Location: 
+
+----
+
+City: 
 
 ----
 

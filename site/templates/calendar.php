@@ -1,24 +1,16 @@
 <?php snippet('header') ?>
 
 <div id="index" class="main-container">
-    <div class="main-time-filter">
-        Time: 
-        <span>
-            <a href="/calendar/time:this-week" data-debug="true">This week</a>
-        </span>
-        <span>
-            <a href="/calendar/time:upcoming" data-debug="true">Upcoming</a>
-        </span>
-        <span>
-            <a href="/calendar/time:all-time" data-debug="true">All time</a>
-        </span>
+    <div class="main-time-filter filter">
+        <span>Time: </span>
+        <a href="/calendar/time:this-week" data-debug="true">This week</a>
+        <a href="/calendar/time:upcoming" data-debug="true">Upcoming</a>
+        <a href="/calendar/time:all-time" data-debug="true">All time</a>
     </div>
-    <div class="main-city-filter">
-        Filter by city:
+    <div class="main-city-filter filter">
+        <span>City: </span>
         <?php foreach($cities as $city): ?>
-            <span>
-                <a href="/calendar/city:<?= strtolower($city) ?>" data-debug="true"><?= $city ?></a>
-            </span>
+            <a href="/calendar/city:<?= strtolower($city) ?>" data-debug="true"><?= $city ?></a>
         <?php endforeach ?>
     </div>
 

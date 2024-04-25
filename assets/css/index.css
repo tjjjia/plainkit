@@ -5,6 +5,7 @@
   --color-light-2: rgb(253, 255, 220);
   --color-light-3: rgb(202, 255, 253);
   --padding: 0.5em;
+  --gap: 0.3em;
 }
 
 ul,
@@ -52,7 +53,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.35;
 }
 
 /* A elements that don't have a class get default styles */
@@ -107,7 +108,6 @@ header {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   /* height: calc(100vh - 2.5em); */
 }
 
@@ -155,22 +155,108 @@ main {
   padding: var(--padding);
 }
 
+/* CALENDER */
+.filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  margin: var(--padding) 0;
+}
+
+.filter a {
+  background-color: var(--color-light-3);
+  border-radius: 8px;
+  padding: 2px 8px;
+  text-decoration: none;
+}
+
+.filter a:hover {
+  background-color: var(--color-light-1);
+}
+
+.event-organisations,
+.event-location,
+.event-time {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+
+.event-organisation:not(:last-of-type)::after {
+  content: ",";
+}
+
+.event-time-from::after {
+  content: "—";
+}
+
+.event-city::before,
+.event-time-timezone::before {
+  content: "(";
+}
+
+.event-city::after,
+.event-time-timezone::after {
+  content: ")";
+}
+
+/* GENERAL */
+.project-container {
+  padding-bottom: 2em;
+}
+#render-close {
+  display: flex;
+}
+
+#render-close button {
+  margin-left: auto;
+}
+
 /* EVENT */
-.event * {
-  display: block;
+.event .header {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.header {
+  margin-bottom: var(--padding);
+}
+
+.event-meta,
+.cover,
+.event .content {
+  margin-bottom: calc(2 * var(--padding));
+}
+
+.event-meta {
+  font-size: 1.5em;
+  line-height: 1.3;
+}
+
+.cover img {
+  max-height: 450px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .events li {
-  border-bottom: 1px black solid;
+  border-top: 1px black solid;
 }
 
-/* EVENT */
+/* ORGANISATION */
+.intro {
+  font-size: 2em;
+}
+
 .organisation * {
   display: block;
 }
 
 .organisations li {
-  border-bottom: 1px black solid;
+  /* border-top: 1px black solid; */
+  font-size: 2em;
 }
 
 .organisation-location {
@@ -193,9 +279,28 @@ footer {
 }
 
 /* Media */
+@media screen and (max-width: 799px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  #index {
+    order: 1;
+    padding-bottom: 2em;
+  }
+  #render {
+    order: 0;
+  }
+}
+
 @media screen and (min-width: 800px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
   .main-container {
     height: calc(100vh - 2.5em);
     overflow-y: scroll;
+  }
+  #render-close {
+    display: none;
   }
 }

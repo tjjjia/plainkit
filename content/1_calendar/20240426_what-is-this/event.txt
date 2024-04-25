@@ -46,7 +46,7 @@ Dateto: 2024-04-26
 
 ----
 
-Isallday: true
+Isallday: false
 
 ----
 
