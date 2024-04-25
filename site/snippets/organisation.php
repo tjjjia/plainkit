@@ -3,6 +3,9 @@
 ?>
 
 <div class="event">
+<nav id="render-close">
+        <button onclick="closeRender()">Close</button>
+    </nav>
 	<div class="header">
 		<h1><?= $currentpage->headline() ?></h1>
 		<h4><?= $currentpage->location() ?></h2>

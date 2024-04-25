@@ -34,6 +34,10 @@ const linkHandler = function (event) {
   fetchProject(url);
 };
 
+const closeRender = function () {
+  clearProject();
+};
+
 // fetch json
 const fetchProject = async (url) => {
   try {

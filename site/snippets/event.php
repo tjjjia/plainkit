@@ -1,4 +1,7 @@
 <div class="event">
+    <nav id="render-close">
+        <button onclick="closeRender()">Close</button>
+    </nav>
     <div class="header">
         <h1><?= $event->title() ?></h1>
         <h2><em><?= $event->subhead() ?></em></h2>
