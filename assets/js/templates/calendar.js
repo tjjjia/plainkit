@@ -13,7 +13,10 @@ const fetchCalendar = async () => {
 
     page++;
   } catch (error) {
-    element.insertAdjacentHTML("beforeend", "<span>Error loading content</span>");
+    element.insertAdjacentHTML(
+      "beforeend",
+      "<span>Error loading content</span>"
+    );
     console.log("Fetch error: ", error);
   }
 };
@@ -22,14 +25,13 @@ const fetchCalendar = async () => {
 function fetchFirstProject() {
   // project_div is defined in index.js
   const firstLink = listed_div.querySelector("a");
-  if (firstLink === null || firstLink === undefined) { 
+  if (firstLink === null || firstLink === undefined) {
     loadmore_button.hidden = true;
   }
   const firstURL = firstLink.href;
 
   fetchProject(firstURL, false);
 }
-
 
 // init
 //
@@ -38,6 +40,6 @@ function init() {
 }
 // init();
 
-if (loadmore_button){
+if (loadmore_button) {
   loadmore_button.addEventListener("click", fetchCalendar);
-};
+}

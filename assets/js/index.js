@@ -78,8 +78,7 @@ const renderProject = function (html, meta, clear) {
   render_div.appendChild(project_element);
 };
 
-const clearProject = function (event) {
-  console.log(event);
+const clearProject = function () {
   render_div.innerHTML = "";
 };
 

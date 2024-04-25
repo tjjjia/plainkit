@@ -8,8 +8,15 @@ return [
         'allowInsecure' => true,
         'basicAuth' => true
     ],
-'debug' => true
-    
-];
+    'routes' => [
+        [
+            'pattern' => '', // when visiting home, redirect to calendar
+            'action'  => function () {
+                return page('calendar/');
+            }
+          ]
+    ],
+    'debug' => true
+    ];
 
 ?>
